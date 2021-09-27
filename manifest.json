@@ -1,0 +1,22 @@
+{
+    "name": "Antonii",
+    "description": "testing extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "index.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting", "contextMenus", "search", "tabs"],
+    "icons": {
+        "16": "/images/anto16.png",
+        "32": "/images/anto32.png",
+        "48": "/images/anto48.png",
+        "128": "/images/anto128.png"
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "sandbox": {
+        "pages": ["index.html", "popup.js"]
+    }
+}
