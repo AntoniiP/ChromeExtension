@@ -7,8 +7,14 @@ body {
     --b: #27272e;
     color: #aab1b3;
     background-color: #27272e;
+    
 }
-#btn {
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+button {
     color: var(--p);
     border: none;
     background-color: green;
@@ -23,8 +29,9 @@ body {
     justify-content: center;
     margin: auto;
     margin-top: 10px;
+    margin-left: 20px;
 }
-#btn:hover {
+button:hover {
     opacity: 1;
 }
 .svg {
@@ -54,19 +61,12 @@ body {
 }
 #editor {
     width: 400px;
-    height: 100px;
-    padding: 10px;
-    background-color: #444;
-    color: white;
-    font-size: 14px;
-    resize: none;
 }
 .pink {
     color: #b061a2;
 }
 ::-webkit-scrollbar {
     width: 10px;
-
 }
 ::-webkit-scrollbar-thumb {
     background: #dcdcdc;
@@ -76,9 +76,16 @@ body {
 ::-webkit-scrollbar-track {
     background: #444;
 }
+
 #res {
     margin-top: 5px;
     background-color: #27272e;
     color: #aab1b3;
     font-size: 14px;
+    margin-left: 5px;
+}
+
+.clear {
+    color: white !important;
+    margin-right: 10px;
 }

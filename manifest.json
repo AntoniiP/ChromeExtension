@@ -1,6 +1,6 @@
 {
-    "name": "Antonii",
-    "description": "testing extension",
+    "name": "JS",
+    "description": "Execute JavaScript code.",
     "version": "1.0",
     "manifest_version": 3,
     "background": {
